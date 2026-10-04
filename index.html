@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Hero</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="logo">
+      Abu<span>Bakar.</span>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="http://127.0.0.1:5500/contect.html">Contact</a></li>
+    </ul>
+
+    <button class="btn" style="padding: 13px 18px;"><a href="http://127.0.0.1:5500/contect.html" style="    color: white;
+    text-decoration: none;">Connect</a></button>
+  </nav>
+</header>
+
+<div id="clock"></div>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    document.getElementById("clock").innerHTML =
+        now.toLocaleTimeString();
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+
+<section class="hero">
+
+  <div class="badge">
+    AVAILABLE FOR FRONTEND ROLES
+  </div>
+
+  <div class="hero-content">
+
+    <div class="left">
+      <h1>
+        Hi, i am <span>Abubakar</span><br>
+        Web Develper
+      </h1>
+
+      <p>
+        I'm <strong>AbuBkar</strong>, a Frontend Developer focused on
+        building fast, scalable and high-performance
+        <b>Web Applications</b> using
+        <span class="pink">modern frontend technologies.</span>
+      </p>
+    </div>
+
+    <div class="right">
+      <img src="Abu.png" alt="">
+    </div>
+
+  </div>
+
+</section>
+<div class="buttons">
+    <a href="#" class="btne btn-white">View my Work</a>
+    <a href="http://127.0.0.1:5500/contect.html" class="btne btn-outline">Contact Me</a>
+</div>
+<section class="about">
+
+    <div class="about-left">
+        <section id="about">
+    <h1>About <span>Me</span></h1>
+</section>
+
+        <p>
+            Hi, I'm <span class="name">Abubakar</span>, a passionate Frontend
+            Developer who loves turning ideas into modern,
+            responsive, and user-friendly web interfaces. I build
+            interactive frontend experiences using HTML, CSS,
+            JavaScript, React, Tailwind CSS, and Bootstrap,
+            ensuring smooth performance across all devices.
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+                <h2>1+</h2>
+                <p>Year learning</p>
+            </div>
+
+            <div class="card">
+                <h2>5+</h2>
+                <p>Practice Projects</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="about-right">
+
+        <h2>Education</h2>
+
+        <div class="education">
+
+            <h3>BS Computer Science</h3>
+
+            <p>riphah international university.islamabad,</p>
+
+            <span>2023 – Present</span>
+
+        </div>
+
+        <hr>
+
+        <h2>Certifications</h2>
+
+        <ul>
+            <li>Meta Front-End Developer — Coursera</li>
+            <li>Web Design & Development — Roohi eSkills Learning Hub</li>
+            <li>Canva Fellowship Program — Fluxxion</li>
+        </ul>
+
+    </div>
+
+</section>
+
+<section class="tech">
+
+    <h1>My <span>Tech Stack</span></h1>
+
+    <div class="tech-container">
+
+        <div class="card">
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML5</h2>
+            <p>Building layouts with clean, semantic code.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS3</h2>
+            <p>Designing visuals and smooth animations.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-tailwind-css"></i>
+            <h2>Tailwind</h2>
+            <p>Utility-first styling for fast, custom interfaces.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-bootstrap"></i>
+            <h2>Bootstrap</h2>
+            <p>Creating fully responsive grid-based web designs.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-js"></i>
+            <h2>JavaScript</h2>
+            <p>Developing logic and DOM manipulation.</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-brands fa-react"></i>
+            <h2>React</h2>
+            <p>Building interactive UIs with React components.</p>
+        </div>
+
+    </div>
+</section>
+<div class="heading">
+    <section id="projects">
+  <h2 class="proej1">My <span style="color: #ff007f;">Projects</span></h2>
+</section>
+<section class="projects">
+
+    <div class="project-card">
+        <img src="project1.png" alt="Edgecut">
+
+        <div class="content">
+            <h2>Edgecut Website</h2>
+
+            <p>A furniture store UI built using HTML and CSS.</p>
+
+            <h3>HTML / CSS</h3>
+
+            <a href="https://amna-jameel.github.io/FastFeast-Website/">Visit</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="Project2.png" alt="FastFeast">
+
+        <div class="content">
+            <h2>FastFeast Website</h2>
+
+            <p>A restaurant landing page built with HTML and CSS.</p>
+
+            <h3>HTML / CSS</h3>
+
+            <a href="https://amna-jameel.github.io/Travelly-website/">Visit</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="travelly.png" alt="">
+
+        <div class="content">
+            <h2>Travelly Website</h2>
+
+            <p>A travel website built using HTML and CSS.</p>
+
+            <h3>HTML / CSS / JS</h3>
+
+            <a href="https://amna-jameel.github.io/FastFeast-Website/">Visit</a>
+        </div>
+    </div>
+
+</section>
+<section class="projects">
+
+    <div class="project-card">
+        <img src="project1.png" alt="Edgecut">
+
+        <div class="content">
+            <h2>Edgecut Website</h2>
+
+            <p>A furniture store UI built using HTML and CSS.</p>
+
+            <h3>HTML / CSS</h3>
+
+            <a href="#">Visit</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="Project2.png" alt="FastFeast">
+
+        <div class="content">
+            <h2>FastFeast Website</h2>
+
+            <p>A restaurant landing page built with HTML and CSS.</p>
+
+            <h3>HTML / CSS</h3>
+
+            <a href="#">Visit</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="travelly.png" alt="">
+
+        <div class="content">
+            <h2>Travelly Website</h2>
+
+            <p>A travel website built using HTML and CSS.</p>
+
+            <h3>HTML / CSS / JS</h3>
+
+            <a href="#">Visit</a>
+        </div>
+    </div>
+
+</section>
+<section class="testimonials">
+
+    <h1>Success <span>Stories</span></h1>
+
+    <div class="testimonial-container">
+
+        <!-- Card 1 -->
+        <div class="testimonial-card">
+
+            <img src="client1.jpeg" alt="">
+
+            <div class="content">
+                <i class="fa-solid fa-quote-left quote"></i>
+
+                <h2>Sofia Malik</h2>
+
+                <p>
+                    Working with <span style="color:#ff008c;">Abubakar</span> was nothing short of exceptional.
+                    They listened carefully to my needs, brought forward
+                    innovative ideas, and executed the project with precision
+                    and creativity. The final result not only reflected my
+                    vision but elevated it, making a lasting impression on my
+                    audience.
+                </p>
+
+                <h4>-Founder of Brightpath Designs</h4>
+
+            </div>
+
+        </div>
+
+        <!-- Card 2 -->
+
+        <div class="testimonial-card">
+
+            <img src="client2.jpg" alt="">
+
+            <div class="content">
+
+                <i class="fa-solid fa-quote-left quote"></i>
+
+                <h2>Daniyal Ali</h2>
+
+                <p>
+                    Collaborating with <span style="color:#ff008c;">Abubakar</span> was a seamless and inspiring
+                    process. They quickly grasped my ideas, offered valuable
+                    insights, and delivered work that was both creative and
+                    strategically on point.
+                </p>
+
+                <h4>-Marketing Director, NovaTech Solutions</h4>
+
+            </div>
+
+        </div>
+
+        <!-- Card 3 -->
+
+        <div class="testimonial-card">
+
+            <img src="client3.jpg" alt="">
+
+            <div class="content">
+
+                <i class="fa-solid fa-quote-left quote"></i>
+
+                <h2>Aisha Rahman</h2>
+
+                <p>
+                    From our very first conversation, <span style="color:#ff008c;">Abubakar</span>impressed me
+                    with attention to detail and commitment. The final
+                    result was polished, impactful, and exactly what I
+                    needed.
+                </p>
+
+                <h4>-CEO, GreenLeaf Organics</h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="contact-section">
+
+    <div class="contact-box">
+        <h1>Let's work <span>together</span></h1>
+
+        <p>
+            Currently looking for new opportunities.
+            My inbox is always open!
+        </p>
+
+        <a href="http://127.0.0.1:5500/contect.html" class="btn">Say Hello!</a>
+    </div>
+
+</section>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Left -->
+        <div class="footer-box">
+            <h2>Abubakar</h2>
+            <h4>Frontend Developer | BSCS '27</h4>
+            <p>Building fast, responsive frontend web applications.</p>
+        </div>
+
+        <!-- Center -->
+        <div class="footer-box links">
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="http://127.0.0.1:5500/contect.html">Contact</a>
+        </div>
+
+        <!-- Right -->
+        <div class="footer-box">
+            <h3>Contact Info</h3>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                <strong>Email:</strong>
+                abubakarking406@gmail.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                <strong>Location:</strong>
+                lahore, Pakistan
+            </p>
+
+            <div class="social">
+                <a href="https://www.linkedin.com/in/abu-bakar-69b9ba402"><img class="one" src="" alt=""><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.tiktok.com/@softwareengineering8?_r=1&_t=ZS-98LxHfM8CH7" ><i class="fab fa-instagram"></i></a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="copyright">
+        © 2026 Abubakar. All rights reserved.
+        Built with care using HTML and CSS.
+    </div>
+
+</footer>
+
+
+
+</body>
+</html>
